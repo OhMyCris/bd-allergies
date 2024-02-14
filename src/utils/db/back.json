@@ -1,0 +1,78 @@
+{
+	"users": [
+		{
+			"email": "prueba@gmail.com",
+			"password": "1234",
+			"name": "David Apellido Apellido",
+			"alergies": ["A", "B", "C"]
+		}
+	],
+	"emergency_contact": [
+		{
+			"fullname":"Algo Martinez",
+			"email":"algo@gmail.com",
+			"mobile":"654321987",
+			"company":"Servicios Muy Algo S.L"
+		}
+	],
+	"alergies": [
+        { 
+            "A": ["Acido benzoico", "Aguacate", "Ajo", "Albaricoque", "Alforfón", "Almendras", "Altramuces", "Anacardo", "Apio", "Arroz", "Avellana", "Avena"], 
+            "B": ["Bálsamo del Perú"], 
+            "C": ["Cacahuete", "Carne de ave de corral", "Carne roja", "Cebada", "Centeno"],  
+            "E": ["Espelta"], 
+            "F": ["Fresa"], 
+            "G": ["Garbanzos", "Guisantes"], 
+            "H": ["Huevo"], 
+            "K": ["Kamut", "Kiwi"], 
+            "L": ["Leche", "Lentejas"], 
+            "M": ["Mango", "Maiz", "Marisco", "Melocoton", "Melon", "Mostaza"], 
+            "N": ["Nectarina", "Nuez"], 
+            "P": ["Pescado", "Platano", "Polen"], 
+            "S": ["Sandia", "Sesamo", "Soja", "Sulfitos"], 
+            "T": ["Tartrazina", "Tomate", "Trigo"] 
+        }
+    ],
+	"food": [
+		{
+			"name": "Algo",
+			"barcode": "AAAAAAAA",
+			"QR": "AAAAAA",
+			"ingredientes": []
+		},
+		{
+			"name": "Algo2",
+			"barcode": "AAAAAAAA2",
+			"QR": "BBBBBB",
+			"ingredientes": []
+		},
+		{
+			"name": "Leche entera",
+			"barcode": "123456789",
+			"qr": "https://example.com/qr/leche-entera",
+			"ingredientes": ["leche"],
+			"descripcion": "Leche entera pasteurizada."
+		  },
+		  {
+			"name": "Arroz blanco",
+			"barcode": "987654321",
+			"qr": "https://example.com/qr/arroz-blanco",
+			"ingredientes": ["arroz"],
+			"descripcion": "Arroz blanco de grano largo."
+		  },
+		  {
+			"name": "Pan integral",
+			"barcode": "456789123",
+			"qr": "https://example.com/qr/pan-integral",
+			"ingredientes": ["harina de trigo integral", "levadura", "agua"],
+			"descripcion": "Pan integral hecho con harina de trigo integral."
+		  },
+		  {
+			"name": "Yogur natural",
+			"barcode": "789123456",
+			"qr": "https://example.com/qr/yogur-natural",
+			"ingredientes": ["leche", "cultivos lácticos"],
+			"descripcion": "Yogur natural sin azúcar añadido."
+		  }
+	]
+}
